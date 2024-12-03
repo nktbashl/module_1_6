@@ -5,8 +5,9 @@ my_dict['e']= 129
 my_dict['c']= 1245
 my_dict['d']= 81237
 print(my_dict)
-print(my_dict['d'])
-del my_dict['d']
+a = my_dict.pop('b')
+print(a)
+
 print(my_dict)
 
 my_set = 1,2,1,2,'asdf'
